@@ -33,5 +33,5 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: report
+  - intent: weather_report
   - action: action_weather
