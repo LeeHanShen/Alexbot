@@ -8,7 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - weather report
+  - weather_report
+
+entities:
+  - area
 
 slots:
   area:
@@ -37,10 +40,6 @@ responses:
 
   utter_iamabot:
   - text: "Nama saya Alex bot. Saya daripada Rasa. Umur saya ialah 10,000 tahun"
-
-
-entities:
-  - area
   
 
 session_config:
