@@ -10,9 +10,11 @@
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
+from rasa.event import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 
 # Weather Api
+# !pip install pyowm
 from pyowm import OWM
 
 key = "a5427ae5b5659c6836283c611b161f96"
