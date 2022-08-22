@@ -4,12 +4,9 @@ nlu:
 
 - intent: weather_report
   examples: |
-    - apakah cuaca di [Malaysia] (area)
-    - apakah laporan cuaca di [Malaysia] (area)
-    - cuaca di [Malaysia] (area)
-
-
-
+    - apakah cuaca di [Malaysia](area)
+    - apakah laporan cuaca di [Malaysia](area)
+    - cuaca di [Malaysia](area)
 
 
 - intent: greet
