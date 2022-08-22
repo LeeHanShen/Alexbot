@@ -2,7 +2,7 @@ version: "3.1"
 
 nlu:
 
-- intent: weather report
+- intent: weather_report
   examples: |
     - apakah cuaca di [Malaysia] (area)
     - apakah laporan cuaca di [Malaysia] (area)
