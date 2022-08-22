@@ -1,6 +1,17 @@
 version: "3.1"
 
 nlu:
+
+- intent: weather report
+  examples: |
+    - apakah cuaca di [Malaysia] (area)
+    - apakah laporan cuaca di [Malaysia] (area)
+    - cuaca di [Malaysia] (area)
+
+
+
+
+
 - intent: greet
   examples: |
     - selamat
@@ -50,6 +61,7 @@ nlu:
     - sangat sedih
     - tidak bagus
     - sangat tidak suka
+
 
 - intent: bot_challenge
   examples: |
