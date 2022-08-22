@@ -28,3 +28,10 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: weather
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: report
+  - action: action_weather
