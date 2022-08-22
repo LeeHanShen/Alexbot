@@ -15,7 +15,9 @@ entities:
 
 slots:
   area:
-    type: unfeaturized 
+    type: any
+    mappings:
+      type: custom 
 
 actions:
   - action_weather
