@@ -15,9 +15,10 @@ entities:
 
 slots:
   area:
-    type: any
+    type: text
     mappings:
-      type: custom 
+    - type: from_entity
+    - entity: area
 
 actions:
   - action_weather
